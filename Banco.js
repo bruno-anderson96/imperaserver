@@ -4,7 +4,9 @@ async function connect() {
         return global.connection;
 
     const mysql = require("mysql2/promise");
-    connection = await mysql.createConnection("mysql://root@localhost:3306/imperatriz");
+    connection = await mysql.createConnection("mysql://b10db11e850fad:e0125958@us-cdbr-east-05.cleardb.net/heroku_811312d345bd953?reconnect=true");
+    // mysql://b10db11e850fad:e0125958@us-cdbr-east-05.cleardb.net/heroku_811312d345bd953?reconnect=true
+    // mysql://root@localhost:3306/imperatriz
     // console.log("Conectou no MySQLocal!");
     // global.connection = connection;
     return connection;    
