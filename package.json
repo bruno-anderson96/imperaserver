@@ -1,0 +1,9 @@
+{
+  "name": "imperaserver",
+  "version": "1.0.0",
+  "description": "Servidor ImperaApp",
+  "main": "Servidor.js",
+    "scripts" : {
+      "start" : "node Servidor"
+    }
+}
