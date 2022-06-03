@@ -8,6 +8,11 @@ app.use(express.json());
 var options = {};
 var rProd;
 
+app.get("/", (req, res) => {  	
+	
+	res.send("Servidor online");
+
+});
 
 
 app.get("/produto", (req, res) => {  	
