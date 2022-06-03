@@ -5,5 +5,8 @@
   "main": "Servidor.js",
     "scripts" : {
       "start" : "node Servidor"
+    },
+    "dependencies": {
+      "express" : "4.18.1"
     }
 }
