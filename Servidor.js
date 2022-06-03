@@ -49,6 +49,6 @@ var rProd = banco.selectAllProd();
 // 	sEmit = await banco.qryEmitente();
 // };
 
-app.listen(8099, () =>{
+app.listen(process.env.PORT, () =>{
 	console.log("Servidor iniciado na porta 8099: http://localhost:8099");
 })
